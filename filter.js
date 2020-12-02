@@ -12,7 +12,7 @@ const array1 = [
   {
     name: 'lion',
     size: 'medium',
-    weight: 150,
+    weight: 2250,
   },
   {
     name: 'elephant',
@@ -26,7 +26,7 @@ for (let index = 0; index < array1.length; index++) {
     newArray.push(array1[index]);
   }
 }
-let newFilter = array1.filter((item, index) => {
+let newFilter = array1.find((item, index) => {
   return item.weight > 1000;
 });
 console.log(newArray);

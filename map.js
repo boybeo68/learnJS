@@ -9,6 +9,6 @@ console.log(newArray);
 // use map
 let arrMap = array1.map((item, index) => {
   //   console.log(index);
-  return item + index;
+  return item  * item;
 });
 console.log(arrMap);

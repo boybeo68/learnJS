@@ -2,7 +2,7 @@ const array1 = [1, 2, 3, 4];
 // Tính tổng các phần tử trong mảng
 let tong = array1.reduce((a, b) => {
   return a + b;
-}, 5);
+}, 0);
 console.log(tong);
 const array2 = [
   {

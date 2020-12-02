@@ -18,3 +18,4 @@ function callApi2() {
 }
 callApi2();
 console.log('lay duoc du lieu roi');
+abcd;
